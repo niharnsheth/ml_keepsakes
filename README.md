@@ -1,6 +1,6 @@
 # ML Keepsakes
 ### About
-##### Assimilation of some of the projects that I have done over a period of time. It is to be noted that this is fairly a recent repository combining and updating codebases from other repositories I previously had. The following is the summary of the projects:
+##### This is a collection of some of the projects I have completed over time. It is a relatively new repository and includes an updated codebase compared to my previous repositories. Below is a summary of the projects included in this collection:
 
 1. Surgical Skill Classification:
      Recently, there has been a upsurge in research for developing autonomous methods for assessing surgical skills. The current methods for assessing are manually intensive, time consuming and subjective to the grader. This project intends to provide an objective method of surgical skill assessment making training for surgical procedures cheaper and less instructor dependent. This is acheived by using time series data generated from motion sensors for developing deep learning models that can classify surgical skill. The data is collected from motion sensors connected to the surgical instruments with feature set including, eucledian position, orientation and velocities. The dataset is specific to a simulator developed at the Mixed Reality Lab at University of Illinois at Chicago in collaboration with the University of Illinois Hospital, Pediatrics Dept and is not currently available publicly.
