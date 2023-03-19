@@ -7,9 +7,9 @@ The recorded data is for two surgical procedures:
 1. Pericardiocentesis (PCS) 
 2. Thoracentesis TCS). 
 
-PCS has two surgical actions: #
-a. Preping area of interest #
-b. Needle Insertion #
+PCS has two surgical actions:  
+a. Preping area of interest  
+b. Needle Insertion  
 
 TCS has 4 surgicla actions: #
 a. Preping area of interest #
