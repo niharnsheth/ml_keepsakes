@@ -11,12 +11,11 @@ PCS has two surgical actions:
 a. Preping area of interest  
 b. Needle Insertion  
 
-TCS has 4 surgicla actions: #
-a. Preping area of interest #
-b. Anesthetization #
-c. Needle Insertion #
-d. Catheterization # 
-
+TCS has 4 surgicla actions:  
+a. Preping area of interest  
+b. Anesthetization  
+c. Needle Insertion  
+d. Catheterization  
 
 
 There is a publically available dataset called JIGSAWS which contains surgical performance data in the form of kinematics and videos, that is made available here. The dataset contains 3 surgical tasks performed using the surgical robot called DaVinci. There are differences in features and labels between our dataset and JIGSAWS, so naturally the scripts need to be editted to train for this dataset, however the overall function remains similar. 
