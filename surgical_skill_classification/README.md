@@ -1,5 +1,4 @@
 # Machine Learing methods for Surgical Assessment
-Respository contains some machine learning models developed for classifying surgical skills (Novice, Intermediate and Expert) or comparing surgical skills (Similarity value) from surgical performance datasets.
 
 ## Datasets
 The scripts are written for a dataset generated through our APSS (Autonomous Platform for Surgical Simualtion) simulator. The data generated is not uploaded here, since its still under wraps and being worked on. The dataset contains kinematics for two surgical procedures: Pericardiocentesis (PCS) and Thoracentesis TCS). PCS has 2 surgical actions and TCS has 4. So the scripts are written to train a total of 6 separate models using the same network, to classify skills for each surgical task. 
