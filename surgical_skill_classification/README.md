@@ -23,11 +23,11 @@ TCS has 4 surgicla actions:
 ## Data
 The dataset was pooled from surgical performances of full-time surgeons, residents and fellows within the Pediatric Dept.
 1. In total 20 participants took part in generating the PCS data whic included 4 surgeons, 7 fellows and 9 residents
-2. In total 11 participants took part in generating the TCS data where 3 surgeons, 5 fellows and 3 residents
+2. In total 11 participants took part in generating the TCS data where 3 surgeons, 5 fellows and 3 residents  
 
-The surgical performance were graded using the OSATS grading method into three classes Expert, Intermediate and Novice. 
-
-
+The surgical performance were graded using the OSATS grading method into three classes Expert, Intermediate and Novice.   
+![label_dis_pericardiocentesis](https://user-images.githubusercontent.com/19583897/227019887-cd3c8959-5f7f-4e69-ac4c-8f8e722f2b10.png)  
+![label_dist_thoracentesis](https://user-images.githubusercontent.com/19583897/227020232-191375cf-0a91-4a14-b0a5-1bcd9b05e41c.png)
 
 The script was written to observe the distribution of features in the dataset. Mainly to recognize the outliers and determine the thresholds (min, max) for normalization of the features. 
 
