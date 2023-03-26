@@ -27,9 +27,14 @@ The dataset was pooled from surgical performances of full-time surgeons, residen
 
 ### Features
 The motion sensors provide Position and Orientation information at a frequency of 50 Hz.
-The feature set is a combination of information provided by the motion sensors and values calculated from that information along with time stamps
-Postion         Orientation         Linear Velocity     Angular Velocity
-X | Y | Z       W | Qx | Qy | Qz    Vx | Vy | Vz        VQx | VQy | VQz
+The feature set is a combination of information provided by the motion sensors and values calculated from that information along with time stamps  
+
+Postion: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X | Y | Z  
+Orientation: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W | Qx | Qy | Qz  
+Linear Velocity: &nbsp;&nbsp;Vx | Vy | Vz  
+Angular Velocity: VQx | VQy | VQz  
+
+  
 The surgical performance were graded using the OSATS grading method into three classes Expert, Intermediate and Novice.   
 ![label_dis_pericardiocentesis](https://user-images.githubusercontent.com/19583897/227019887-cd3c8959-5f7f-4e69-ac4c-8f8e722f2b10.png)  
 ![label_dist_thoracentesis](https://user-images.githubusercontent.com/19583897/227020232-191375cf-0a91-4a14-b0a5-1bcd9b05e41c.png)
