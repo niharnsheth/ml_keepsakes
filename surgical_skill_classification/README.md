@@ -25,7 +25,7 @@ The dataset was pooled from surgical performances of full-time surgeons, residen
 2. In total 11 participants took part in generating the TCS data where 3 surgeons, 5 fellows and 3 residents  
 
 ### 1. Features
-The motion sensors provide Position and Orientation information at a frequency of 50 Hz.
+The motion sensors provide Position and Orientation information at a frequency of 50 Hz. Additional features like linear and angular velocity are calculated from the 
 The feature set is a combination of information provided by the motion sensors and values calculated from that information along with time stamps  
 
 Postion: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X | Y | Z  
@@ -52,7 +52,13 @@ The process entails the following:
 
 ## Training and Testing
 Currently contains scripts for 
-1. 1D-CNN
-2. LSTM
-3. Siamese Convolution Neural Network
+1. Siamese Convolution Neural Network
+2. 1D-CNN
+
+Siamese Convolution Neural Network
+
+Results:
+
+![Screenshot 2023-03-28 080918](https://user-images.githubusercontent.com/19583897/228231708-a45807b5-aafb-47ae-9ba2-86c95ddf8b9c.png)
+
 Note: All the scirpts perform data augmentation using sliding window method. 
