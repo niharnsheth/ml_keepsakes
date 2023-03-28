@@ -48,25 +48,24 @@ The collected data had outliers of two forms:
 * unprecendeted motion unrelated to the surgical task
 The later could only be removed manually by replaying the recorded data and removing unrelated motions in the task. The traditional outliers were removed by determining value thresholds (min and max) for each task, as seen below by plotting the density of values for the each feature per surgical task. 
   
+ ![image](https://user-images.githubusercontent.com/19583897/228271853-326b52bf-e3e0-425b-80ed-63a3055fa8bb.png) 
   
-  
-1. The dataset was first manually cleaned to remove the parts of actions not related to surgical tasks.
-2. Feature transformaion for orientation values to convert Euler Angles to Quaternions.
-3. Additional features such as linear and rotational velocities were calculated through available time stamps for position and orientaiton values.
-4. Normalization of data for training.
-
+ Post processing the features were normalized.  
+   
 ## Training and Testing
 Currently contains scripts for 
 1. Siamese Convolution Neural Network
 2. 1D-CNN
 
-Siamese Convolution Neural Network
-
+Siamese Convolution Neural Network  
+  
 Results:
-Accuracy of the trained SCNN models 
-![Screenshot 2023-03-28 080918](https://user-images.githubusercontent.com/19583897/228233998-70953ae1-f919-485b-9c94-267e962f1b8c.png)
+Accuracy of the trained SCNN models  
 
-Experiment on the effect of input size on the performance of SCNN model
-![Screenshot 2023-03-28 081629](https://user-images.githubusercontent.com/19583897/228233260-b04487fb-553d-41db-99e5-cf7a69e8bfb9.png)
+![Screenshot 2023-03-28 080918](https://user-images.githubusercontent.com/19583897/228233998-70953ae1-f919-485b-9c94-267e962f1b8c.png)  
+
+Experiment on the effect of input size on the performance of SCNN model  
+
+![Screenshot 2023-03-28 081629](https://user-images.githubusercontent.com/19583897/228233260-b04487fb-553d-41db-99e5-cf7a69e8bfb9.png)  
 
 Note: All the scirpts perform data augmentation using sliding window method. 
