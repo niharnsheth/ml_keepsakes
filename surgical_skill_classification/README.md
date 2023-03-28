@@ -42,8 +42,14 @@ The surgical performance were graded using the OSATS grading method into three c
 
 The script was written to observe the distribution of features in the dataset. Mainly to recognize the outliers and determine the thresholds (min, max) for normalization of the features. 
 
-## Feature Engineering
-The process entails the following:
+### 3. Processing
+The collected data had outliers of two forms:
+* from sensor readings far away from the surgical area of interest
+* unprecendeted motion unrelated to the surgical task
+The later could only be removed manually by replaying the recorded data and removing unrelated motions in the task. The traditional outliers were removed by determining value thresholds (min and max) for each task, as seen below by plotting the density of values for the each feature per surgical task. 
+  
+  
+  
 1. The dataset was first manually cleaned to remove the parts of actions not related to surgical tasks.
 2. Feature transformaion for orientation values to convert Euler Angles to Quaternions.
 3. Additional features such as linear and rotational velocities were calculated through available time stamps for position and orientaiton values.
