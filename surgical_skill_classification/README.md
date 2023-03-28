@@ -5,7 +5,7 @@ The dataset was created on a custom inhouse-built simulator I built which mainly
 The data generated is not publicily available, due to licensing issues. 
 The recorded data is for two neonatal surgical procedures: 
 1. Pericardiocentesis (PCS) 
-2. Thoracentesis TCS). 
+2. Thoracentesis (TCS). 
 
 PCS has two surgical actions:  
 * ChloraPrep applicaiton  
