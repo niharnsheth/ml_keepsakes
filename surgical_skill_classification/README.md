@@ -45,7 +45,8 @@ The script was written to observe the distribution of features in the dataset. M
 ### 3. Processing
 The collected data had outliers of two forms:
 * from sensor readings far away from the surgical area of interest
-* unprecendeted motion unrelated to the surgical task
+* unprecendeted motion unrelated to the surgical task  
+
 The later could only be removed manually by replaying the recorded data and removing unrelated motions in the task. The traditional outliers were removed by determining value thresholds (min and max) for each task, as seen below by plotting the density of values for the each feature per surgical task. 
   
  ![image](https://user-images.githubusercontent.com/19583897/228271853-326b52bf-e3e0-425b-80ed-63a3055fa8bb.png) 
