@@ -61,4 +61,6 @@ Results:
 
 ![Screenshot 2023-03-28 080918](https://user-images.githubusercontent.com/19583897/228231708-a45807b5-aafb-47ae-9ba2-86c95ddf8b9c.png)
 
+![Screenshot 2023-03-28 081629](https://user-images.githubusercontent.com/19583897/228233260-b04487fb-553d-41db-99e5-cf7a69e8bfb9.png)
+
 Note: All the scirpts perform data augmentation using sliding window method. 
