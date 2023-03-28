@@ -58,9 +58,10 @@ Currently contains scripts for
 Siamese Convolution Neural Network
 
 Results:
-
+Accuracy of the trained SCNN models 
 ![Screenshot 2023-03-28 080918](https://user-images.githubusercontent.com/19583897/228233998-70953ae1-f919-485b-9c94-267e962f1b8c.png)
 
+Experiment on the effect of input size on the performance of SCNN model
 ![Screenshot 2023-03-28 081629](https://user-images.githubusercontent.com/19583897/228233260-b04487fb-553d-41db-99e5-cf7a69e8bfb9.png)
 
 Note: All the scirpts perform data augmentation using sliding window method. 
