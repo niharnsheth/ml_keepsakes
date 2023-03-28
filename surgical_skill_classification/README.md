@@ -35,8 +35,7 @@ Angular Velocity: VQx | VQy | VQz
 
 ### 2. Labels  
 
-The surgical performance were graded using the OSATS grading method into three classes Expert, Intermediate and Novice.  
-  
+The surgical performance were graded using the OSATS grading method into three classes Expert, Intermediate and Novice. Based on the manual grading the following number of samples for each label are present for developing the model.  
   
 ![label_dis_pericardiocentesis](https://user-images.githubusercontent.com/19583897/227019887-cd3c8959-5f7f-4e69-ac4c-8f8e722f2b10.png)  
 ![label_dist_thoracentesis](https://user-images.githubusercontent.com/19583897/227020232-191375cf-0a91-4a14-b0a5-1bcd9b05e41c.png)
