@@ -1,3 +1,8 @@
+# [Chronic Kidney Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/kidney_disease_detection)  
+  
+## Description
+
+
 # [Parkinson's Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/parkinson_detection)
 
 ## Description
