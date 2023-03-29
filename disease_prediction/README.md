@@ -1,4 +1,4 @@
-# Parkinson's Disease Detection
+# [Parkinson's Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/parkinson_detection)
 
 ## Description
 
