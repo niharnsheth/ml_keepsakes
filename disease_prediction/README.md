@@ -1,8 +1,3 @@
-# [Chronic Kidney Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/kidney_disease_detection)  
-  
-## Description
-
-
 # [Parkinson's Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/parkinson_detection)
 
 ## Description
@@ -22,4 +17,16 @@ The project uses some useful methods to remove data imbalance and reduce high di
 6. Gaussian Naive Bayes
 7. XGBoost
 
+
+# [Chronic Kidney Disease Detection](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction/kidney_disease_detection)  
+  
+## Description
+
+Chronic Kidney Disease (CKD) or chronic renal disease has become a major issue with a steady growth rate. A person can only survive without kidneys for an average time of 18 days, which makes a huge demand for a kidney transplant and Dialysis. Early detection is of utmost importance, which could be solved through ML.  
+
+A public dataset containing 24 health related attributes taken in 2 month period of 400 patients. Out of the 400 records, 158 records have complete information the rest of the patient records are missing values.  
+
+This work proposes a workflow to predict CKD status based on clinical data, incorporating data prepossessing, a missing value handling method with collaborative filtering and attributes selection.  
+
+Currently, the project display the use of Fully Connected Neural Networks for classifying the presence of CKD.
 
