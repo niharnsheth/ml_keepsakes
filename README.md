@@ -9,4 +9,4 @@ Recently, there has been a upsurge in research for developing autonomous methods
 Doctors read a large number of patient summaries medical abstracts a day, these are particularly long and time consuming to read. This project intends to reduce the work load on doctors by using a NLP models that can classify diseases based on the abstracts. 
     
 ### 3. [Disease Prediction](https://github.com/niharnsheth/ml_keepsakes/tree/master/disease_prediction):
-This is a collection of three sub-projects; detection of chronic kidney disease, parkinson's disease and liver disease. All the dieasea prediction is done using traditional machine learning algorithms.  
+This is a collection of two sub-projects; detection of chronic kidney disease and parkinson's disease. The publicly available data is used to train several ML models to find the best fit for the application.  
